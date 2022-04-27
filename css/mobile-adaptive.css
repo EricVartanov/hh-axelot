@@ -1,0 +1,207 @@
+
+
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .idc-about .idc-container {
+        padding-bottom: 40px;
+    }
+    .idc-slider .idc-container {
+        height: 374px;
+    }
+    .idc-slider .idc-text-block {
+        top: 223px;
+        left: 15px;
+        padding-right: 30px;
+    }
+
+    .idc-info .idc-container {
+        padding-top: 45px;
+        padding-bottom: 50px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 50px;
+    }
+    .idc-fact {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 699px) {
+    .idc-h1 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    /* ******head*** */
+    .idc-head .idc-container {
+        padding-top: 17px;
+        padding-bottom: 73px;
+    }
+    .idc-head .idc-logo {
+        /* width: 95px; */
+        width: 30vw;
+    }
+    .idc-head .idc-bg-vector {
+        /* width: 168px; */
+        width: 53vw;
+    }
+    .idc-head .idc-bg {
+        display: none;
+    }
+    .idc-head .idc-bgwrapper {
+        background-image: url(../img/head-bg.jpg);
+    }
+    /* ******about**** */
+    .idc-about .idc-container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .idc-about .idc-h1 {
+        font-size: 4.3vw;
+        line-height: 5vw;
+    }
+    /* *******************slider***************** */
+    .idc-slider .idc-container {
+        height: 147vw;
+    }
+    .idc-slider .idc-text-block {
+        position: absolute;
+        top: 30px;
+        left: 15px;
+    }
+    .idc-slider .idc-text-block {
+        padding-right: 15px;
+    }
+    .idc-slider .idc-h1 {
+        color: #ffffff;
+        font-size: 5.6vw;
+        line-height: 6.5vw;
+    }
+    .idc-slider .idc-text {
+        color: #ffffff;
+        font-size: 4.3vw;
+        line-height: 5vw;
+    }
+
+    .idc-slider .idc-text.idc-1,
+    .idc-slider .idc-text.idc-3,
+    .idc-slider .idc-text.idc-7 {
+        max-width: 100%;
+    }
+    .idc-slider .idc-text.idc-2 {
+        max-width: 72%;
+    }
+    .idc-slider .idc-text.idc-4 {
+        max-width: 68%;
+    }
+    .idc-slider .idc-text.idc-5,
+    .idc-slider .idc-text.idc-6 {
+        max-width: 65%;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .idc-info p > strong {
+        font-size: 4.3vw;
+        line-height: 5vw;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 60px;
+    }
+    .idc-info ul {
+        margin-top: 30px;
+        max-width: 90%;
+    }
+
+    .idc-info ul li {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .idc-info ul li::before {
+        top: 6px;
+    }
+
+    /* ******facts **** */
+    .idc-facts .idc-container {
+        padding-bottom: 60px;
+    }
+    .idc-facts .idc-h1 {
+        font-size: 4.3vw;
+        line-height: 5vw;
+    }
+    .idc-facts-block {
+        margin-top: 2px;
+    }
+    .idc-red {
+        font-size: 16px;
+        line-height: 18px;
+        /* font-style: 5vw; */
+        /* line-height: 6vw; */
+    }
+
+    /* .idc-fact .idc-title {
+        font-size: 3.8vw;
+        line-height: 4vw;
+    } */
+    .idc-fact,
+    .idc-fact:nth-child(4),
+    .idc-fact:nth-child(10) {
+        width: 142px;
+        margin-left: 0;
+        padding-right: 3px;
+        margin-top: 16px;
+    }
+    .idc-fact .idc-text-block {
+        width: calc(100% - 30px);
+    }
+    .idc-fact:nth-child(2n + 1) {
+        margin-left: 0;
+        padding-right: 6px;
+    }
+    .idc-fact .idc-icon {
+        width: 30px;
+        height: 30px;
+        margin-left: 0;
+    }
+    .idc-fact .idc-text {
+        font-size: 10px;
+        line-height: 11px;
+        /* font-size: 3.2vw; */
+        /* line-height: 3.5vw; */
+    }
+
+    /* ******footer **** */
+    .idc-footer .idc-container {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .idc-footer .idc-h1 {
+        font-size: 4.3vw;
+        line-height: 5vw;
+        max-width: 68vw;
+    }
+    .idc-track {
+        position: relative;
+        right: 0;
+        top: 0;
+        margin-left: auto;
+        width: 36.6vw;
+    }
+    .idc-ps {
+        margin-top: 75px;
+        font-size: 8px;
+        line-height: 10px;
+        margin-top: 20px;
+    }
+}
